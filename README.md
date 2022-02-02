@@ -43,5 +43,15 @@ docker run -d -it --expose=9090 --expose=8080 -p 0.0.0.0:9090:22 -p 0.0.0.0:8080
 
 ## 4　Cloud9での接続設定
 
+・Environment type：Create and run in remote server (SSH connection)
 
+・SSH Server connection - User：ubuntu
+
+・SSH Server connection - Host：EC2のホスト(IP)
+
+・SSH Server connection - Port：9090
+
+・Advanced settings - Environment path：/home/ubuntu
+
+・Advanced settings - Node.js binary path：/usr/bin/node
 

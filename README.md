@@ -41,7 +41,7 @@ docker build -t cloud9python:latest .
 docker run -d -it --expose=9090 --expose=8080 -p 0.0.0.0:9090:22 -p 0.0.0.0:8080:8080 --name cloud9python cloud9python:latest
 ```
 
-## 4　Cloud9での接続設定
+## 4 Cloud9での接続設定
 
 ※リージョンはシンガポール
 

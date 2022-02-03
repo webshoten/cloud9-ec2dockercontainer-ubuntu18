@@ -13,7 +13,7 @@ https://docs.aws.amazon.com/ja_jp/cloud9/latest/user-guide/sample-docker.html
 
 ・EC2のSGインバウントについてポート8080,9090,22、アドレス帯13.250.186.160/27,13.250.186.128/27で開放していること。
 
-※Cloud9はap-southeast-1(シンガポール)で作る必要がありEC2に接続を許可する必要がある。
+※Cloud9はap-southeast-1(シンガポール)で作る必要がありEC2に接続を許可する必要があるため。
 
 # 簡易手順
 

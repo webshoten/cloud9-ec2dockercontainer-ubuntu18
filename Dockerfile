@@ -70,5 +70,10 @@ RUN curl https://d2j6vhu5uywtq3.cloudfront.net/static/c9-install.sh | bash
 USER root
 # Start SSH in the Docker container.
 RUN mkdir -p /run/sshd
-#CMD ssh-keygen -A && /usr/sbin/sshd -D
 CMD ssh-keygen -A && /usr/sbin/sshd -D
+
+#sample app install
+COPY ./sample/python/server.py /home/ubuntu/
+RUN pip3 install flask
+
+

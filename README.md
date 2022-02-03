@@ -5,9 +5,7 @@ Docker sample(ubuntu18) for AWS Cloud9
 
 Docker sample for AWS Cloud9のubuntu版
 
-pythonでデバッグできるようにしてみる。
-
-おもに以下の手順をとるため一度以下を参照しておいてほしい。
+サンプルコードはpython
 
 参考：https://docs.aws.amazon.com/ja_jp/cloud9/latest/user-guide/sample-docker.html
 

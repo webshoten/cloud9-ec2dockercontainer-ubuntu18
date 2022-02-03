@@ -3,11 +3,9 @@ Docker sample(ubuntu18) for AWS Cloud9
 
 # 概要
 
-Docker sample for AWS Cloud9のubuntu版
+下記ドキュメントのubuntu、puthon版
 
-サンプルコードはpython
-
-参考：https://docs.aws.amazon.com/ja_jp/cloud9/latest/user-guide/sample-docker.html
+https://docs.aws.amazon.com/ja_jp/cloud9/latest/user-guide/sample-docker.html
 
 # 前提
 

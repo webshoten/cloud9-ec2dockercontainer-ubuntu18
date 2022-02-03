@@ -43,6 +43,8 @@ docker run -d -it --expose=9090 --expose=8080 -p 0.0.0.0:9090:22 -p 0.0.0.0:8080
 
 ## 4　Cloud9での接続設定
 
+※リージョンはシンガポール
+
 ・Environment type：Create and run in remote server (SSH connection)
 
 ・SSH Server connection - User：ubuntu

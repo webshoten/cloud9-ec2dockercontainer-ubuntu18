@@ -76,4 +76,6 @@ CMD ssh-keygen -A && /usr/sbin/sshd -D
 COPY ./sample/python/server.py /home/ubuntu/
 RUN pip3 install flask
 
+# directory auth
+RUN chown -R ubuntu:ubuntu /home/ubuntu
 
